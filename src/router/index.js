@@ -47,7 +47,7 @@ const routes = [
   },
   {
     path: '/rule-engine',
-    redirect: { path: '/' },
+    redirect: { path: '/edgex-ui-rule-engine' },
     name: 'rule-engine',
     component: App,
   },

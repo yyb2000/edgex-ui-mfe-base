@@ -20,6 +20,12 @@ const microApps = [
     entry: process.env.VUE_APP_SVC_SYSTEM,
     activeRule: '/app-service',
     container: '#mfe',
+  },
+  {
+    name: 'edgex-ui-rule-engine',
+    entry: process.env.VUE_APP_SVC_SYSTEM,
+    activeRule: '/edgex-ui-rule-engine',
+    container: '#mfe',
   }
 ]
 
